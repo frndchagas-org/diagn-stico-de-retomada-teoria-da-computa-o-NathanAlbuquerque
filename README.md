@@ -135,9 +135,21 @@ S -> b
 
 Responda:
 
-1. Gere cinco cadeias produzidas por essa gramática.
-2. Descreva a linguagem em palavras.
-3. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples.
+1. Gere cinco cadeias produzidas por essa gramática:
+
+- "b" (aplicando S -> b)
+- "ab" (aplicando S -> aS -> ab)
+- "aab" (aplicando S -> aS -> aS -> aab)
+- "aaab" (aplicando S -> aS -> aS -> aS -> aaab)
+- "aaaab" (aplicando S -> aS -> aS -> aS -> aS -> aaaab)
+
+2. Descreva a linguagem em palavras:
+
+A linguagem é formada por cadeias que têm zero ou mais 'a's seguidos por exatamente um 'b'. Em notação, seria a^n b onde n >= 0. Sempre termina em 'b' e tem 'a's antes dele (ou nenhum 'a').
+
+3. Essa gramática parece regular, livre de contexto ou outra classe? Justifique de forma simples:
+
+Parece ser livre de contexto. Porque tem uma única não-terminal no lado esquerdo de cada regra (S), e as regras definem como expandir S recursivamente. Isso é o padrão de uma gramática livre de contexto. Também poderia ser regular, já que posso montar um autômato finito pra reconhecer a^n b (teria um estado que lê 'a's, depois muda pra outro que lê um único 'b' e termina).
 
 ## 6. Ponto de dificuldade
 
