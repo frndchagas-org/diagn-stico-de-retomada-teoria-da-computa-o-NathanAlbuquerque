@@ -27,9 +27,20 @@ Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi
 Explique, com suas palavras e com um exemplo simples, usando o alfabeto `Sigma = {a, b}`.
 
 1. O que é um alfabeto?
+
+Um alfabeto é um conjunto finito de símbolos que podem ser utilizados. Por exemplo, com Sigma = {a, b}, posso usar somente 'a' e 'b' para construir cadeias.
+
 2. O que é uma cadeia?
+
+Uma cadeia é uma sequência finita de símbolos do alfabeto. Por exemplo, "aab", "bbb" ou "a" são cadeias válidas em {a, b}. Também existe a cadeia vazia, que não tem nenhum símbolo.
+
 3. O que é uma linguagem?
+
+Uma linguagem é um conjunto de cadeias. Por exemplo, posso ter uma linguagem que contém todas as cadeias que começam com 'a', como L = {a, aa, ab, aaa, aab, aba, abb, ...}. Uma linguagem pode ser finita ou infinita.
+
 4. O que é uma gramática?
+
+Uma gramática é um conjunto de regras que define como construir cadeias de uma linguagem. Tem uma forma bem específica com símbolos terminais (os que ficam na cadeia final) e não-terminais (que são substituídos). Por exemplo, uma gramática simples pode ter a regra S -> aS | b, que gera cadeias como "b", "ab", "aab", etc.
 
 ## 3. Linguagens
 
