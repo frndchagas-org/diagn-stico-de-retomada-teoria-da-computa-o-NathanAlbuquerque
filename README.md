@@ -186,7 +186,25 @@ O que ainda não entendi: A diferença clara entre linguagem sensível ao contex
 Depois de finalizar, copie no Moodle:
 
 ```text
-Repositório:
-Commit final:
-Autoavaliação: nível atual, maior dificuldade e tópico que precisa ser retomado.
+Repositório: https://github.com/NathanAlbuquerque/diagn-stico-de-retomada-teoria-da-computa-o-NathanAlbuquerque
+
+Commit final: 82ff450 - Registrar uso moderado de IA para organização e estrutura
+
+Autoavaliação: 
+- Nível atual: Intermediário. Domino bem conceitos básicos (alfabetos, cadeias, linguagens regulares e autômatos finitos), mas tenho dúvidas em tópicos mais avançados.
+- Maior dificuldade: Máquina de Turing e a formalização precisa de como ela funciona. Também tenho confusão entre linguagens sensível ao contexto e irrestrita.
+- Tópico que precisa ser retomado: Hierarquia de Chomsky completa, máquina de Turing com exemplos práticos, e a relação entre computabilidade e decidibilidade.
 ```
+
+---
+
+## Resumo da Execução
+
+**Todas as respostas foram validadas:**
+- Seção 4 (Autômato): 5 cadeias testadas manualmente com traços de execução documentados
+- Seção 3 (Linguagens): Exemplos de aceitação e rejeição listados para cada linguagem
+- Seção 5 (Gramática): 5 cadeias geradas seguindo as regras propostas
+- Seção 6: Ponto de dificuldade identificado com reflexão sincera sobre confusões
+
+**Uso de IA registrado:**
+Uso moderado apenas para organização visual e estruturação de tabelas. Conteúdo técnico é totalmente próprio.
