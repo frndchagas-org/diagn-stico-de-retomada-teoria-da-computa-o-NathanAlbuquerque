@@ -54,12 +54,26 @@ L3 = { a^n b^n c^n | n >= 0 }
 
 Para cada linguagem:
 
-1. escreva três palavras que pertencem à linguagem;
-2. escreva duas palavras que não pertencem;
-3. diga, se souber, em qual classe ela provavelmente se encaixa;
-4. explique o motivo em linguagem simples.
+### L1 = { w em {0,1}* | w termina com 01 }
 
-Não há problema em dizer "não sei". Nesse caso, escreva o que te deixou em dúvida.
+1. Três palavras que pertencem: "01", "101", "1001"
+2. Duas palavras que não pertencem: "0", "10"
+3. Classe: Linguagem regular
+4. Motivo: Essa é uma linguagem que termina em um padrão específico (01), então consigo fazer um autômato finito que reconhece isso. Preciso de apenas alguns estados pra lembrar se terminou com "01" ou não.
+
+### L2 = { a^n b^n | n >= 0 }
+
+1. Três palavras que pertencem: "" (vazio, com n=0), "ab", "aabb"
+2. Duas palavras que não pertencem: "a", "abb"
+3. Classe: Linguagem livre de contexto
+4. Motivo: Pra reconhecer essa linguagem, preciso contar quantos 'a's tem pra garantir que tem a mesma quantidade de 'b's depois. Uma pilha consegue fazer isso, então é livre de contexto. Mas um autômato finito não consegue "contar".
+
+### L3 = { a^n b^n c^n | n >= 0 }
+
+1. Três palavras que pertencem: "" (vazio, com n=0), "abc", "aabbcc"
+2. Duas palavras que não pertencem: "aabcc", "aabbbc"
+3. Classe: Não tenho certeza, mas acho que é sensível ao contexto ou irrestrita
+4. Motivo: Pra validar, preciso contar 'a's, depois 'b's na mesma quantidade, depois 'c's também. Uma pilha não consegue fazer isso porque ela só funciona bem pra dois níveis de contagem. Seria preciso algo mais poderoso, tipo uma máquina de Turing.
 
 ## 4. Autômato finito
 
