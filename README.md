@@ -9,18 +9,18 @@ Responda individualmente. Use suas palavras. Se usar IA depois da primeira tenta
 
 Marque cada tópico como: lembro bem, lembro parcialmente, não lembro, nunca vi ou não tenho certeza.
 
-- alfabeto:
-- cadeia:
-- linguagem:
-- gramática:
-- autômato finito:
-- linguagem regular:
-- linguagem livre de contexto:
-- linguagem sensível ao contexto:
-- linguagem irrestrita:
-- hierarquia de Chomsky:
-- computabilidade:
-- máquina de Turing:
+- alfabeto: lembro bem
+- cadeia: lembro bem
+- linguagem: lembro bem
+- gramática: lembro parcialmente
+- autômato finito: lembro bem
+- linguagem regular: lembro bem
+- linguagem livre de contexto: lembro parcialmente
+- linguagem sensível ao contexto: não tenho certeza
+- linguagem irrestrita: não tenho certeza
+- hierarquia de Chomsky: lembro parcialmente
+- computabilidade: lembro parcialmente
+- máquina de Turing: lembro parcialmente
 
 ## 2. Definições com exemplo
 
