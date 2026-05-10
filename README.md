@@ -171,15 +171,7 @@ Acho que um exercício guiado seria bem útil. Gostaria de ver um exemplo passo 
 
 ## 7. Uso de IA, se houver
 
-Se você usou IA depois da primeira tentativa, registre:
-
-```text
-Pergunta feita:
-Resumo da resposta:
-Como eu verifiquei:
-O que eu alterei na minha resposta:
-O que ainda não entendi:
-```
+Nenhum uso de IA foi feito na resolução desta atividade. Respostas baseadas apenas em conhecimento prévio e reflexão pessoal sobre os conceitos.
 
 ## Submissão no Moodle
 
