@@ -96,13 +96,33 @@ q2 --1--> q0
 Responda:
 
 1. Qual linguagem esse autômato parece reconhecer?
+
+Parece que o autômato reconhece cadeias que terminam com "01". Pra chegar em q2 (estado final), preciso ler um 0 (que me leva de q0 a q1) e depois um 1 (que me leva de q1 a q2). Se a cadeia terminar nesse ponto, ela é aceita. Se tiver mais símbolos depois, sai de q2.
+
 2. Execute manualmente as cadeias abaixo e diga se aceita ou rejeita:
-   - `01`
-   - `101`
-   - `100`
-   - `1101`
-   - `111`
+
+- `01`: q0 --0--> q1 --1--> q2 ✓ **ACEITA**
+- `101`: q0 --1--> q0 --0--> q1 --1--> q2 ✓ **ACEITA**
+- `100`: q0 --1--> q0 --0--> q1 --0--> q1 ✗ **REJEITA** (termina em q1)
+- `1101`: q0 --1--> q0 --1--> q0 --0--> q1 --1--> q2 ✓ **ACEITA**
+- `111`: q0 --1--> q0 --1--> q0 --1--> q0 ✗ **REJEITA** (termina em q0)
+
 3. Monte uma tabela curta mostrando o caminho dos estados para pelo menos duas cadeias.
+
+**Cadeia "01":**
+| Entrada | Estado Atual | Próximo Estado |
+|---------|-------------|---------------|
+| -       | -           | q0 (inicial)  |
+| 0       | q0          | q1            |
+| 1       | q1          | q2 (final)    |
+
+**Cadeia "101":**
+| Entrada | Estado Atual | Próximo Estado |
+|---------|-------------|---------------|
+| -       | -           | q0 (inicial)  |
+| 1       | q0          | q0            |
+| 0       | q0          | q1            |
+| 1       | q1          | q2 (final)    |
 
 ## 5. Gramática
 
