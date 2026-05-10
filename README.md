@@ -171,7 +171,15 @@ Acho que um exercício guiado seria bem útil. Gostaria de ver um exemplo passo 
 
 ## 7. Uso de IA, se houver
 
-Nenhum uso de IA foi feito na resolução desta atividade. Respostas baseadas apenas em conhecimento prévio e reflexão pessoal sobre os conceitos.
+Pergunta feita: Como organizar melhor as respostas da atividade de diagnóstico e estruturar as tabelas de execução do autômato?
+
+Resumo da resposta: Sugestões de formatação em Markdown, organização de tópicos por seção e estrutura de tabelas para a execução manual do autômato.
+
+Como eu verifiquei: Revisei cada resposta e confirmei que as informações continuavam sendo minhas reflexões e conhecimentos prévios. A IA apenas ajudou com formatação visual.
+
+O que eu alterei na minha resposta: Passei as respostas por um review de organização e estrutura visual. Mantive todo o conteúdo técnico intacto, apenas reorganizei a apresentação das tabelas e exemplos.
+
+O que ainda não entendi: A diferença clara entre linguagem sensível ao contexto e linguagem irrestrita. Não tenho muita prática com máquinas de Turing para classificar com segurança. Também fico em dúvida sobre quando exatamente uma gramática deixa de ser livre de contexto.
 
 ## Submissão no Moodle
 
