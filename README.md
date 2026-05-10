@@ -186,7 +186,7 @@ O que ainda não entendi: A diferença clara entre linguagem sensível ao contex
 Depois de finalizar, copie no Moodle:
 
 ```text
-Repositório: https://github.com/NathanAlbuquerque/diagn-stico-de-retomada-teoria-da-computa-o-NathanAlbuquerque
+Repositório: https://github.com/frndchagas-org/diagn-stico-de-retomada-teoria-da-computa-o-NathanAlbuquerque
 
 Commit final: 82ff450 - Registrar uso moderado de IA para organização e estrutura
 
