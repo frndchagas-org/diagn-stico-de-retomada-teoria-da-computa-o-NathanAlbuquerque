@@ -155,9 +155,19 @@ Parece ser livre de contexto. Porque tem uma única não-terminal no lado esquer
 
 Escolha um tópico da lista inicial e escreva:
 
-1. o que você entende dele;
-2. onde você se confunde;
-3. que tipo de explicação ajudaria: desenho, exemplo, exercício guiado, analogia, prova passo a passo ou lista curta.
+**Tópico escolhido: Máquina de Turing**
+
+1. O que você entende dela:
+
+Uma máquina de Turing é um modelo teórico de computação que tem um controle de estados (tipo um autômato), uma fita infinita de memória onde pode ler e escrever símbolos, e uma cabeça que se move na fita. Ela pode se deslocar pra esquerda ou direita, ler o símbolo atual, escrever um novo símbolo e mudar de estado. Entendo que é bem poderosa e consegue reconhecer linguagens muito complexas, praticamente qualquer coisa "computável".
+
+2. Onde você se confunde:
+
+Fico confuso sobre como exatamente a fita funciona e se ela é realmente infinita ou se tem algum limite prático. Também não tenho muito claro como formalizar a definição de uma máquina de Turing - qual é exatamente a estrutura (quantos conjuntos preciso definir?). Não tenho certeza se uma máquina de Turing sempre termina ou se pode ficar em "loop" infinito. E a relação entre máquina de Turing e computabilidade - quando algo é computável ou não computável?
+
+3. Que tipo de explicação ajudaria:
+
+Acho que um exercício guiado seria bem útil. Gostaria de ver um exemplo passo a passo de uma máquina de Turing simples reconhecendo uma linguagem, com a fita sendo desenhada e mostrando cada movimento. Também ajudaria uma definição formal clara com um exemplo concreto.
 
 ## 7. Uso de IA, se houver
 
